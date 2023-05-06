@@ -1,0 +1,45 @@
+@import "./sidebar.css";
+@import "./navbar.css";
+@import "./jumbotron.css";
+@import "./aboutme.css";
+@import "./experience.css";
+@import "./service.css";
+@import "./footer.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --blue-dark: #17232B;
+    --black : #111A20;
+    --orange: #FFA97A;
+    --gray: #959595;
+  }
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: var(--black);
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+p {
+    margin: 0 0 0 0;
+}
+
+img {
+    margin: 0 0 0 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 94px;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 137px;
+    }
+}

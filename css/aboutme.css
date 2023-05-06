@@ -1,0 +1,134 @@
+main .aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 32px;
+}
+
+main .aboutMe .aboutMeText {
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--orange);
+    text-shadow: 0px 0px 80px var(--orange);
+    margin-top: 70px;
+}
+
+main .aboutMe .myIntro  {
+    font-weight: 800;
+    font-size: 15px;
+    color: var(--gray);
+}
+
+main .aboutMe .container {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .aboutMe .container .image2 {
+    width: 275px;
+    height: 275px;
+    margin-right: 137px;
+    background: rgb(255,169,122);
+    background: linear-gradient(180deg, rgba(255,169,122,1) 0%, rgba(255,169,122,0.5) 100%);
+    border-radius: 30px 30px 30px 30px;
+    line-height: 0px;
+}
+
+main .aboutMe .container .containerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .aboutMe .container .containerText aside {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: var(--gray);
+}
+
+main .aboutMe .container .containerText .containerCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .aboutMe .container .containerText .card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue-dark);
+    line-height: 20px;
+    border-radius: 15px;
+    width: 130px;
+    align-items: center;
+}
+
+main .aboutMe .container .containerText .card .text1 {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    color: white;
+    margin-bottom: 6px;
+}
+
+main .aboutMe .container .containerText .card .text2 {
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.6px;
+    color: var(--gray);
+    margin-bottom: 12px;
+}
+
+main .aboutMe .container .containerText .card img {
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width: 768px) {
+    main .aboutMe .container {
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-top: 27px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    main .aboutMe .container .image2 {
+        width: 275px;
+        height: 275px;
+        margin-right: 0px;
+        background: rgb(255,169,122);
+        background: linear-gradient(180deg, rgba(255,169,122,1) 0%, rgba(255,169,122,0.5) 100%);
+        border-radius: 30px 30px 30px 30px;
+        line-height: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    main .aboutMe .container .containerText .containerCard {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px
+    }
+
+    main .aboutMe .container .containerText {
+        padding-left: 5px;
+        padding-right: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 20px;
+    }
+}
+
